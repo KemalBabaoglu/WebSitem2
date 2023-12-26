@@ -1,0 +1,270 @@
+*{padding: 0;
+    margin: 0;
+    }
+
+body{
+    
+    font-family: 'Montserrat, sans-serif';
+    /* font-family:Arial, Helvetica, sans-serif; */
+}
+
+
+
+.header-foto{
+    background-image: url('images/headerFoto.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: round;
+}
+
+.nav-link{
+    color: #BCA55B !important;
+    
+}
+
+.line {
+    width: 0px;
+    height: 2px;
+    background-color: #BCA55B;
+    visibility: hidden;
+    transition: all .5s ease;
+}
+
+a:hover + .line{
+    width: 100%;
+    visibility: visible;
+}
+
+.hamburgMenu{
+    display: none !important ;
+    height: 70px;
+    width: 70px;
+    
+}
+
+.animasyon{
+    animation: slideInLeft;
+  animation-duration: .5s; 
+}
+
+.ortaBuyukisim{
+    color:#BCA55B !important;
+}
+
+
+@media screen and (max-width: 990px){
+    .hamburgMenu{
+        display: block !important;
+        z-index: 999;
+        cursor: pointer;
+    }
+    .collapse{
+        position: absolute ;
+        right: 0px ;
+        top: 0px ;
+        width: 100% ;
+        height: 100vh;
+        display: none;
+        background-color:black;
+       
+    }
+    
+    .ac-kapa{
+        display: flex !important;
+    
+    }
+
+
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item{
+    margin-bottom: 35px;
+    font-size: 24px;    
+}
+
+
+.isimLogoKapat{
+display: none !important;
+}
+
+/* SOSYAL MEDYA İCONLARI */
+.fa-search {
+    transition: 0.5s;
+
+}
+
+.fa-facebook {
+    transition: 0.5s;
+}
+
+.fa-instagramr {
+    transition: 0.5s;
+}
+
+.fa-twitter{
+    transition: 0.5s;
+}
+
+.fa-youtube{
+    transition: 0.5s;
+}
+
+.fa-search:hover {
+    color: green !important;
+    transition: 0.5s;
+
+}
+
+.fa-facebook:hover {
+    color: blue !important;
+    transition: 0.5s;
+}
+
+.fa-instagram:hover {
+    color: rgb(216, 41, 216) !important;
+    transition: 0.5s;
+}
+
+.fa-twitter:hover {
+    color: #00A7E6 !important;
+    transition: 0.5s;
+}
+
+.fa-youtube:hover {
+    color: red !important;
+    transition: 0.5s;
+}
+
+
+/* KARTLAR */
+.btn-devam{
+    width: 90% !important;
+    transition: 0.5s;
+    font-style: italic;
+    color: white !important;
+    background-color:#BCA55B !important;
+}
+
+.btn-devam:hover{
+    background-color: white !important;
+    color: #BCA55B !important;
+    /* border: solid 1px black !important; */
+    transition: 0.5s ; 
+   
+
+}
+
+.btn-devam:active{
+    background-color: white !important;
+    color: black !important;
+    border: solid 1px black !important;
+    transition: 0.5s ; 
+}
+
+
+nav ul li:hover{
+    color: white;
+    background-color:grey ;
+
+}
+
+.card{transition: 0.5s;}
+
+.card:hover{
+    /* transform: scale(1.02); */
+    opacity: 0.7;
+   
+    transition: 0.5s;
+}
+.card:active{
+    /* transform: scale(1.02); */
+    opacity: 0.7;
+    border: 1px solid black !important;
+}
+
+@media screen and (max-width: 760px){
+    .card{
+        width: 95% !important;
+    }
+}
+
+.icons{
+    color: red !important;
+    font-size: 20px !important;
+
+}
+
+.icons:hover a{
+    color: #BCA55B !important;
+    transition: 0.5s;
+}
+
+.icons a{
+    color: white !important;
+}
+
+@media screen and (max-width: 760px){
+    .icons a{
+        font-size: 18px !important;
+    }
+}
+
+
+
+
+/* ! ÇALIŞMA ALANLARIMIZ */
+
+.header-foto-calismaalanlarimiz{
+    background-image: url('images/headerFoto.jpg');
+    height: 350px;
+
+    background-size:cover !important;
+    background-repeat:round !important;
+    
+}
+
+.header-foto-iletisim{
+    background-image: url('images/headerFoto.jpg');
+    height: 350px;
+    background-size:cover;
+    background-repeat:round;    
+}
+
+@media screen and (max-width: 760px){
+    .cardFoto{
+        width: 95% !important;
+    }
+
+
+}
+
+.whatsappDestek:hover{
+    scale: 1.2;
+}
+
+
+footer{
+    background-image: url('images/footerFoto.jpg');
+    background-size: cover;
+    background-repeat: round;
+}
+
+/* !İLETİŞİM */
+@media screen and (max-width: 760px){o
+    iframe{
+        height: 280px ;
+    }
+
+
+}
+
+
+
+
+
+
